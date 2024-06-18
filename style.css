@@ -59,7 +59,7 @@
 .nav-links a {
   text-decoration: none;
   color: rgb(235, 235, 243);
-  font-weight: 550;
+  /* font-weight: 550; */
   font-style: normal;
   font-size: 1.12rem;
 }
@@ -287,7 +287,7 @@
 }
 
 .scr-con {
-  width: 88%;
+  width: 72%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -663,6 +663,45 @@
   justify-content: flex-start;
 }
 
+/* EVENT GALLERY */
+.gallery{
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+  /* overflow: hidden; */
+}
+.gallery-con{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  gap: 3rem;
+  overflow: hidden;
+  
+}
+
+.gal-img{
+  height: 15rem;
+ 
+}
+.gal-btn{
+  font-size: 2rem;
+  color: #656565;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.gal-btn:hover{
+  color: #489FB5;
+}
+
+
+
+
 
 /* MEDIA QUERIES */
 
@@ -890,9 +929,11 @@
   width: auto;
   display: flex;
   align-items: center;
-
-  
 }
+.scr-con{
+  width: 70%;
+}
+
 .det-con {
   color: #656565;
   display: flex;
@@ -1167,6 +1208,7 @@ text-align: center;
 .reg-content{
 padding: 2rem;
 margin-top: 2rem;
+width: 80%;
 }
 
 .form-con>p {
@@ -1185,6 +1227,7 @@ justify-content: center;
 align-items: center;
 padding: 5rem 0rem;
 gap: 6rem;
+width: 70%;
 }
 .scr-flex {
 background-color: white;
